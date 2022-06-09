@@ -88,7 +88,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
           <ol>
             <li>
               La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
-              <ol>
+              <ol type='a'>
                 <li>
                   Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.
                 </li>
@@ -98,7 +98,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
               </ol>
             </li>
             <li>
-                La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
+              La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
             </li>
           </ol>
         </p>
@@ -145,5 +145,15 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
       <?php }; ?>
     </div>
   </main>
+  <footer>
+    <div class="container">
+    <ul>
+      <li>Google</li>
+      <li>Tutto su Google</li>
+      <li>Privacy</li>
+      <li>Termini</li>
+    </ul>
+    </div>
+  </footer>
 </body>
 </html>
