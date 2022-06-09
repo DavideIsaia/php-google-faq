@@ -115,7 +115,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
             I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.
         </p>
         <p>
-            Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a href=''>Contattaci&#10169;</a> se ritieni che il paese associato al tuo account sia sbagliato.
+            Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a href=''>Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.
         </p>",
     ],
     [
@@ -146,13 +146,18 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
     </div>
   </main>
   <footer>
-    <div class="container">
-    <ul>
+    <div class="container clearfix">
+    <ul class="col col-left">
       <li>Google</li>
       <li>Tutto su Google</li>
       <li>Privacy</li>
       <li>Termini</li>
     </ul>
+    <select name="" id="">
+      <option value="">Italiano</option>
+      <option value="">English</option>
+      <option value="">Deutsch</option>
+    </select>
     </div>
   </footer>
 </body>

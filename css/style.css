@@ -17,16 +17,26 @@ html {
   clear: both;
 }
 
-.col {
-  float: left;
-  min-width: 10%;
-}
-
 .container {
   width: 65%;
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.col {
+  float: left;
+  min-width: 10%;
+}
+
+.col-left {
+  width: 50%;
+  text-align: left;
+}
+
+.col-right {
+  width: 50%;
+  text-align: right;
+} 
 
 a {
   color: #3367d6;
@@ -57,16 +67,6 @@ nav {
   width: 10%;
   padding-right: 1rem;
 }
-
-.col-left {
-  width: 50%;
-  text-align: left;
-}
-
-.col-right {
-  width: 50%;
-  text-align: right;
-} 
 
 .header-menu {
   padding-left: 1rem;
@@ -129,4 +129,11 @@ footer li {
   color: gray;
   font-size: 0.5rem;
   cursor: pointer;
+}
+
+footer select {
+  float: right;
+  width: 10rem;
+  font-size: 0.6rem;
+  margin: 0.5rem 0;
 }
